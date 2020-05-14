@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nandan Pandey</title>
+        <link rel = 'icon' href = "img/fav.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+
+        <!-- google font api -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        
+        <link rel="stylesheet" href="../static/css/logi.css">
+
+    </head>
+    <body>       
+
+              <div class="background-wrap">
+                <div class="background"></div>
+              </div>
+
+              <form id="accesspanel" action="login" method="post">
+                <h1 id="litheader">CREDENTIAL</h1>
+                <div class="inset">
+                  <p>
+                    <input type="text" name="username" id="email" placeholder="Email address">
+                  </p>
+                  <p>
+                    <input type="password" name="password" id="password" placeholder="Access code">
+                  </p>
+                  <div style="text-align: center;">
+                    <div class="checkboxouter">
+                      <input type="checkbox" name="rememberme" id="remember" value="Remember">
+                      <label class="checkbox"></label>
+                    </div>
+                    <label for="remember">Remember me for 14 days</label>
+                  </div>
+                  <input class="loginLoginValue" type="hidden" name="service" value="login" />
+                </div>
+                <p class="p-container">
+                  <input type="submit" name="Login" id="go" value="Authorize">
+                </p>
+              </form>
+        
+        
+        
+        <script src="../static/js/log.js"></script>
+        
+        
+    </body>
+</html>
